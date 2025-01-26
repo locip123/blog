@@ -1,0 +1,9 @@
+body {
+    cursor:url('/blog/images/arrow.cur'),
+    default;
+}
+a,
+img {
+    cursor:url('/blog/images/arrow.cur'),
+    default;
+}

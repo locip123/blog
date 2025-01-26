@@ -1,0 +1,122 @@
+/* 通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* 主要容器样式 */
+.about-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(145deg, #fff, #f0f0f0);
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-container:hover {
+    transform: translateY(-10px);
+}
+
+/* 头像样式 */
+.about-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.about-container img:hover {
+    transform: scale(1.1);
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* 内容段落样式 */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* 强调文字样式 */
+strong {
+    font-weight: 700;
+    color: #3e64ff;
+}
+
+/* 列表样式 */
+ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+li a {
+    color: #3e64ff;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #1f48d1;
+}
+
+/* 响应式样式 */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+}
